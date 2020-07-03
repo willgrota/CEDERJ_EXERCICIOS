@@ -64,7 +64,6 @@ def escreverArqSaida(dados):
     for i in range(len(dados)):
         escrita.write(dados[i] + "\n")
     escrita.close()
-    print('correção concluída')
     return None
 
 
