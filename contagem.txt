@@ -1,7 +1,0 @@
-mesa 2
-tempo 1
-abacaxi 0
-bastante 1
-de 3
-teste 2
-implementado 1
