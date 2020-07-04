@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cf90d40-6d59-47b5-a9bc-884037a648da" name="Default Changelist" comment="inclusao de PIG_AD2" />
+    <list id="5fd38463-4213-47d0-8163-d5f16fecb519" name="Revert &quot;teste com pycharm&quot;" comment="Revert &quot;teste com pycharm&quot;&#10;&#10;This reverts commit d6612af5" />
+    <list id="5c418e82-aa93-4414-b131-bf76f0922875" name="teste com pycharm" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e9wan3VEPqCUW8TnK2X3WVin4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\willg\PycharmProjects\CEDERJ_EXERCICIOS\FP_AD2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="questao-1-AD2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\willg\PycharmProjects\venv\CEDERJ_EXERCICIOS\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/questao-1-AD2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.questao-1-AD2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cf90d40-6d59-47b5-a9bc-884037a648da" name="Default Changelist" comment="" />
+      <changelist id="5c418e82-aa93-4414-b131-bf76f0922875" name="teste com pycharm" comment="" />
+      <created>1593747182495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593747182495</updated>
+    </task>
+    <task id="LOCAL-00001" summary="teste com pycharm">
+      <created>1593749350044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593749350044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="teste com pycharm">
+      <created>1593750015850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593750015850</updated>
+    </task>
+    <task id="LOCAL-00003" summary="teste com pycharm2">
+      <created>1593750230878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593750230878</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delecao novo teste">
+      <created>1593751259215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593751259215</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inclusao de PIG_AD2">
+      <created>1593879867575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593879867575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="teste com pycharm" />
+    <MESSAGE value="teste com pycharm2" />
+    <MESSAGE value="delecao novo teste" />
+    <MESSAGE value="inclusao de PIG_AD2" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclusao de PIG_AD2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593748827231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593748827231" />
+    <state x="484" y="0" key="#questao-1-AD2" timestamp="1593751935789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#questao-1-AD2/0.0.1536.824@0.0.1536.824" timestamp="1593751935789" />
+    <state x="396" y="0" key="CommitChangelistDialog2" timestamp="1593750037721">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593750037721" />
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1593751761036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593751761036" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1593752039446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593752039446" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1593752039446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593752039446" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1593752039446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593752039446" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1593752039446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593752039446" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1593751135295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593751135295" />
+    <state x="916" y="227" width="388" height="263" key="MultipleFileMergeDialog" timestamp="1593751081341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="916" y="227" width="388" height="263" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593751081341" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1593750441794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593750441794" />
+    <state x="618" y="327" key="VCS.ChangelistChooser" timestamp="1593750062668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="327" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1593750062668" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593751458237">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593751458237" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593879727768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593879727768" />
+    <state x="531" y="201" key="git4idea.merge.GitMergeDialog" timestamp="1593748736119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="201" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593748736119" />
+    <state x="543" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593749420637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593749420637" />
+  </component>
+</project>

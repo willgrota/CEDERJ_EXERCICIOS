@@ -1,0 +1,99 @@
+Index: questao-2-AD2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n\r\n#SUBPROGRAMAS\r\n\r\ndef corrigePalavra(palavra):\r\n    novaPalavra = palavra\r\n    if len(palavra) > 1:\r\n        if palavra[len(palavra)-1] == palavra[len(palavra)-2]:\r\n            novaPalavra = palavra[0:len(palavra)-1]\r\n        else:\r\n            ind = len(palavra)-3\r\n            ind2 = len(palavra)-2\r\n            while ind > -1:\r\n                if palavra[len(palavra)-1] != palavra[ind]:\r\n                    ind -= 1\r\n                else:\r\n                    ref = ind\r\n                    ind -= 1\r\n                    if palavra[ind2] == palavra[ind]:\r\n                        while palavra[ind2] == palavra[ind] and ind > -1 and ind2 > ref+1:\r\n                            ind -= 1\r\n                            ind2 -= 1\r\n                        novaPalavra = palavra[0:ind2]\r\n    return novaPalavra\r\n\r\ndef corrigeMensagens(list):\r\n    msgCorrigida = \"\"\r\n    for i in range(len(list)):\r\n        linha = (str(list[i])).split()\r\n        lnCorrigida = \"\"\r\n        numCorrigida = 0\r\n        for j in range(len(linha)):\r\n            plv = str(linha[j])\r\n            plCorrigida = corrigePalavra(plv)\r\n            if plv != plCorrigida:\r\n                numCorrigida += 1\r\n            lnCorrigida += plCorrigida + \" \"\r\n        msgCorrigida += str(numCorrigida) + \" \" + lnCorrigida.strip() + \", \"\r\n    msgCorrigida = msgCorrigida[0:len(msgCorrigida)-2]\r\n    msgCorFinal = msgCorrigida.split(\", \")\r\n    return msgCorFinal\r\n\r\ndef lerArquivoEntrada():\r\n    leitura = open(\"mensagens_originais.txt\", \"r\")\r\n    N = leitura.readline()\r\n    dados = []\r\n    linha = 1\r\n    msg = \"\"\r\n    while linha <= int(N):\r\n        if linha < int(N):\r\n            msg = leitura.readline()\r\n            dados.append(msg[0:len(msg) - 1])\r\n            linha += 1\r\n        elif linha == int(N):\r\n            msg = leitura.readline()\r\n            dados.append(msg[0:len(msg)])\r\n            linha += 1\r\n    leitura.close()\r\n    return dados\r\n\r\n\r\ndef escreverArqSaida(dados):\r\n    escrita = open(\"mensagens_corrigidas.txt\", \"w\")\r\n    for i in range(len(dados)):\r\n        escrita.write(dados[i] + \"\\n\")\r\n    escrita.close()\r\n    return None\r\n\r\n\r\n#PROGRAMA PRINCIPAL\r\n\r\ndadosEnt = lerArquivoEntrada()\r\nmsgCorreta = corrigeMensagens(dadosEnt)\r\ndadosSaida = escreverArqSaida(msgCorreta)\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- questao-2-AD2.py	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ questao-2-AD2.py	(date 1593750322382)
+@@ -64,6 +64,7 @@
+     for i in range(len(dados)):
+         escrita.write(dados[i] + "\n")
+     escrita.close()
++    print('correção concluída')
+     return None
+ 
+ 
+Index: .idea/.gitignore
+===================================================================
+--- .idea/.gitignore	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ .idea/.gitignore	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+--- .idea/inspectionProfiles/profiles_settings.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ .idea/inspectionProfiles/profiles_settings.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ .idea/vcs.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/CEDERJ_EXERCICIOS.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/CEDERJ_EXERCICIOS.iml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ .idea/CEDERJ_EXERCICIOS.iml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.8 (CEDERJ_EXERCICIOS)" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ .idea/modules.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/CEDERJ_EXERCICIOS.iml" filepath="$PROJECT_DIR$/.idea/CEDERJ_EXERCICIOS.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
++++ .idea/misc.xml	(revision 1b2f1cc6a7162621b300a62e6de9747a5177aeb1)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (CEDERJ_EXERCICIOS)" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
